@@ -21,7 +21,7 @@ locals {
       gitignore_template = "Terraform"
       name = "fem-terraform-eci-aws-network"
       topics = ["frontend-masters", "terraform", "devops-tutorials"]
-      visibility = "private"
+      visibility = "public"
     }
 
     "fem-eci-terraform-aws-cluster" = {
@@ -29,7 +29,7 @@ locals {
       gitignore_template = "Terraform"
       name = "fem-terraform-eci-aws-cluster"
       topics = ["frontend-masters", "terraform", "devops-tutorials"]
-      visibility = "private"
+      visibility = "public"
     }
   }
 }
