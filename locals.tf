@@ -31,5 +31,13 @@ locals {
       topics = ["frontend-masters", "terraform", "devops-tutorials"]
       visibility = "public"
     }
+
+    "fem-eci-service" = {
+      description = "Example product servicw"
+      gitignore_template = "Go"
+      name = "fem-eci-service"
+      topics = ["frontend-masters", "terraform", "devops-tutorials"]
+      visibility = "public"
+    }
   }
 }
